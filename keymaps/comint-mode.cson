@@ -10,6 +10,10 @@
 'atom-workspace':
   'ctrl-alt-s': 'comint-mode:newShell'
 
+'atom-workspace atom-text-editor.editor.comint-mode':
+  'cmd-p': 'comint-mode:input-ring-previous'
+  'cmd-n': 'comint-mode:input-ring-next'
+  
 
 'atom-text-editor.comint-mode':
   'enter': 'comint-mode:send-command'
