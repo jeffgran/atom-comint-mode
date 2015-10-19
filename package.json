@@ -17,6 +17,14 @@
     "pty.js": "0.3.0",
     "ansi_up": "1.3.0",
     "CBuffer": "1.1.0",
-    "underscore-plus": "*"
+    "underscore-plus": "*",
+    "shellwords": "*"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "autocompleteProvider"
+      }
+    }
   }
 }

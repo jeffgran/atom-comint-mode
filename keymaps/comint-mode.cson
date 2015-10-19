@@ -13,8 +13,7 @@
 'atom-workspace atom-text-editor.editor.comint-mode':
   'cmd-p': 'comint-mode:input-ring-previous'
   'cmd-n': 'comint-mode:input-ring-next'
-  'ctrl-a': 'comint-mode:move-to-beginning-of-line'
-  
+
 
 'atom-text-editor.comint-mode':
   'enter': 'comint-mode:send-command'
