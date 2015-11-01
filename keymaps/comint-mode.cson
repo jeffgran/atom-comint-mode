@@ -18,3 +18,5 @@
 'atom-text-editor.comint-mode':
   'enter': 'comint-mode:send-command'
   'ctrl-cmd-k': 'comint-mode:clear-buffer'
+  'ctrl-c': 'comint-mode:send-control-c'
+  #'ctrl-a': 'comint-mode:move-to-beginning-of-line'

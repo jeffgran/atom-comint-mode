@@ -1,3 +1,19 @@
-atom-text-editor::shadow .highlight.prompt .region {
-    border-bottom: 2px solid red;
+atom-text-editor::shadow {
+  
+  .highlight.prompt .region {
+    border-bottom: 2px solid #117733;
+    z-index: 1000;
+  }
+  
+  .comint-ansi-delimiter {
+    display: none;
+  }
+  
+  .comint-ansi-foreground-green {
+    color: #B7BC5F;
+  }
+  
+  .comint-ansi-foreground-blue {
+    color: #B75FBC;
+  }
 }

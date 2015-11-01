@@ -1,0 +1,37 @@
+{
+  "scopeName": "comint",
+  "name": "Comint",
+  "fileTypes": [],
+  
+  "patterns": [
+    
+    {
+      "begin": "\\[0;32m-foo",
+      "end": "\\[0m-foo",
+      "name": "comint.comint-ansi.ansi-foreground-green",
+      "contentName": "comint.comint-ansi-content",
+      "captures": {
+        "1": {
+          "name": "comint-ansi-capture"
+        }
+      }
+    },
+    
+    {
+      "match": "(\\[0;32m)(.*)(\\[0m)",
+      "captures": {
+        "1": {
+          "name": "comint-ansi-delimiter"
+        },
+        "2": {
+          "name": "comint-ansi-foreground-green"
+        },
+        "3": {
+          "name": "comint-ansi-delimiter"
+        }
+      }
+    }
+    
+        
+  ]
+}
